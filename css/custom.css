@@ -1,0 +1,201 @@
+.post_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.author {
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.post_thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.post_content {
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 863px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.page_links {
+    margin: auto;
+}
+
+/*CONTACT FORM STYLES
+
+.form_title {
+    font-family: 'Playfair Display', serif;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: calc(100% + 15px);
+    max-width: 683px;
+    margin: 0 auto;
+  }
+  
+  .form-inline label {
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+    color: rgb(163, 24, 250);
+    margin: 5px 10px 5px 0;
+    justify-content: left;
+  }
+  
+  .form-inline input {
+    font-family: 'Alegreya', serif;
+    border: 2px solid #B084CC;
+    background-color: rgba(176, 132, 204, 0.2);
+    margin: 5px 10px 5px 0;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .form-box {
+      width: 50%;
+      padding-right: 16px;
+  }
+
+  .input-box {
+      margin-top: 10px;
+  }
+
+  #send_btn {
+    border: 2px solid #B084CC;
+    background-color: rgba(176, 132, 204, 0.05);
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 12px;
+    margin: auto;
+    letter-spacing: 3px;
+  }
+
+  .privacy {
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+    color: #000;
+  }
+
+  .contact_section {
+    background: url('http://technicallyher.blog/wp-content/themes/technicallyher/img/petals.jpg') no-repeat top center fixed;
+    background-size: cover;
+  }
+
+  @media (max-width: 800px) {
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+        width: 80%;
+      }
+    
+    .form-inline input {
+      margin: 10px 0;
+      width: 100%;
+    }
+    
+    .form-box {
+      width: 100%;
+      padding-right: 0px;
+    }
+    
+  } */
+
+  /*CONTACT FORM*/
+  
+.wpcf7 input,
+.wpcf7 textarea {
+  width: 100%;
+  max-width: 667px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.wpcf7 label {
+	display: block;
+}
+
+textarea {
+  font-family: 'Alegreya', serif;
+  border: 2px solid #B084CC;
+  background-color: rgba(176, 132, 204, 0.2);
+  width: 100%;
+  max-width: 667px;
+  height: 150px;
+}
+
+.wpcf7-text {
+  font-family: 'Alegreya', serif;
+  border: 2px solid #B084CC;
+  background-color: rgba(176, 132, 204, 0.2);
+  width: 100%;
+  max-width: 667px;
+  height: 50px;
+}
+
+label {
+ width: 100%;
+ max-width: 667px;
+ font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+ color: #707070;
+ font-size: 12px;
+ text-transform: uppercase;
+ letter-spacing: 3px;
+ margin: 5px;
+}
+
+div.wpcf7 {
+	max-width: 667px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wpcf7-submit {
+  font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+  color: #707070;
+  font-size: 12px!important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border: 2px solid #B084CC;
+  background-color: rgba(176, 132, 204, 0.05);
+  width: 100px!important;
+  height: 50px;
+  cursor: pointer;
+}
+
+.wpcf7-form p:nth-last-child(2) {
+  text-align: center;
+}
+
+.comment-form input {
+  font-family: 'Alegreya', serif;
+  border: 2px solid #B084CC;
+  background-color: rgba(176, 132, 204, 0.2);
+  padding: 0.5rem;
+}
+
+.all-comments, .children {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.comment-form label, .comment-notes{
+  font-family: 'Alegreya', serif;
+  color: #000;
+  font-size: 19px;
+  text-transform: none;
+  letter-spacing: 0;
+  margin-left: 0;  
+}

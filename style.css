@@ -1,0 +1,516 @@
+/* 
+Theme Name: Technically Her
+Author: Natasha Johnson
+*/
+
+html {
+    margin-top: 0 !important;
+    padding: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    color: #000;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.post_date {
+    font-family: 'Alegreya', serif;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+body {
+    background-color: #fff;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0px;
+}
+
+.topnav {
+    position: relative;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+#breadcrumbs {
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+    color: #FF686B;
+}
+
+.nav_home_logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    outline: none;
+}
+
+.nav_home_logo:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.menu_item {
+    color: #b3b3b3;
+    letter-spacing: 3px;
+    font-size: 12px;
+    vertical-align: middle;
+    outline: none;
+}
+
+.menu_item:hover {
+    text-decoration: none;
+    color: #84DCC6;
+}
+
+.topnav_centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav_right {
+    float: right;
+}
+
+#dot {
+    color: pink;
+    font-size: 65px;
+}
+
+.search {
+    cursor:pointer;
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: none;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 5rem;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 14px;
+    transform: rotate(45deg);
+    color: #FF686B;
+}
+
+.active {
+    display: block;
+}
+
+#search_form {
+    border-bottom: 1px solid #FF686B;
+    position: relative;
+    top: 1rem;
+}
+
+#search_bar {
+    font-family: 'Alegreya', serif;
+    color: #FF686B;
+    width: 100%;
+    border: none;
+    padding: 5px;
+}
+
+@media screen and (max-width:960px) {
+    .menu_item {
+        display: none;
+    }
+
+    .topnav_centered a {
+        position: relative;
+        top: 35px;
+        font-size: 26px;
+        display: block;
+        text-align: center;
+    }
+
+    .topnav a {
+        padding: 20px;
+        float: none;
+    }
+    
+    #dot {
+        font-size: 35px;
+    }
+
+    .topnav_right {
+        float: none;
+    }
+
+    .icon {
+        cursor: pointer;
+        margin-bottom: 2rem;
+    }
+
+    #bar1, #bar2, #bar3 {
+        background-color: pink;
+        width: 30px;
+        height: 1px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .search {
+        margin: 0 auto;
+    }
+
+    .responsive {
+        float: none;
+        display: block!important;
+        text-align: center;
+        transition: 3s;
+    }
+    
+}
+
+/* 
+//This code centers the home logo.  I don't advise using this websiet
+@media screen and (min-width:600px) and (max-width:1000px) {
+
+    .menu_item {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    .topnav a {
+        padding: 0 20px;
+    }
+    
+    .topnav_centered a {
+      position: relative;
+      top: 20px;
+      /*transform: none;*
+      font-size: 26px;
+      display: block;
+      text-align: center;
+    }
+
+    #dot {
+        color: pink;
+        font-size: 45px;
+        display: inline;
+        vertical-align: sub;
+    }
+
+}*/
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    .nav_home_logo {
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+    }
+}
+
+hr {
+    border-color: #d9d9d9;
+}
+
+.featured_post {
+    margin: 0 auto;
+}
+
+.featured_title h6{
+    letter-spacing: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.posts {
+    margin: 0 auto;
+    width: 295px;
+    border: 1px solid #d9d9d9;
+}
+
+.post_caption {
+    padding: 0.7rem;
+}
+
+.p_title {
+    margin: 0 auto;
+}
+
+.post_link {
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.line {
+    margin: 0 auto;
+    max-width: 1063px;
+    width: 100%;
+}
+
+#featured_img {
+    width: 100%;
+    height: auto;
+}
+
+.post_img {
+    width: 295px;
+    height: 196px;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgb(207, 164, 233);
+}
+.separator::before {
+    margin-right: 3em;
+}
+.separator::after {
+    margin-left: 3em;
+}
+
+.post_link:hover {
+    text-decoration: none;
+    color:  pink;
+}
+
+#signup_title {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.signup_section {
+    margin: 0 auto;
+    border: 1px solid #84dcc6;
+    /*background-color: rgba(255,192,203, 0.5);
+    width: 100%;
+    max-width: 531px;*/
+    padding: 25px;
+    background: url("http://technicallyher.blog/wp-content/themes/technicallyher/img/grayscale-photography-of-four-women-wearing-clothes-1065081.jpg") no-repeat center center;
+    background-size: cover;
+    width: 1063px;
+    height: 708px;
+}
+
+.signup_content {
+    position: relative;
+    top: 1.8rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 476px;
+    text-align: center;
+}
+
+#mail {
+    font-family: 'Alegreya', serif;
+    border: 2px solid #B084CC;
+    background-color: rgba(176, 132, 204, 0.2);
+    margin: 2px auto;
+    display: block;
+    line-height:25px; 
+    width: 100%;
+    height: 43px;
+    padding: 0.5rem;
+}
+
+#email_label {
+    font-size: 12px;
+    font-style: italic;
+}
+
+#submit_btn {
+    border: 2px solid #B084CC;
+    background-color: rgba(176, 132, 204, 0.05);
+    line-height:25px;
+    margin: 0 auto;
+    display: block;
+    height: 43px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.disclaimer {
+    font-family: 'Alegreya', serif;
+    font-size: 15px;
+    text-align: left;
+    color: #707070;
+}
+
+#inspire_section {
+    margin: 0 auto;
+}
+
+#inspire_quote {
+    width: 100%;
+    height: auto;
+}
+
+.attachment-post-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #FAF5E4;
+}
+
+.nav_footer_logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    text-decoration: none;
+    float: left;
+}
+
+.nav_footer_logo:hover {
+    color: black;
+}
+
+#footer_dot {
+    color: pink;
+}
+
+.menu_footer_item {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.menu_footer_item:hover {
+    color: #FF686B;
+    text-decoration: none;
+}
+
+.menu_footer_item:not(:first-child) {
+    padding: 20px 0px 20px 40px;
+}
+
+.footer_nav {
+    float: left;
+}
+
+#ownership {
+    font-family: 'Alegreya', serif;
+    color: #707070;
+    font-size: 10px;
+    margin: 20px 0px 10px 0px;
+}
+
+#signature_footer_link {
+    float: right;
+}
+
+.footer_content {
+    padding-top: 20px;
+}
+
+.social {
+    float: right;
+    padding-top: 15px;
+}
+
+.facebook {
+    color: rgba(255, 104, 107, 0.8);
+}
+
+.facebook:hover {
+    color:#84DCC6;
+}
+
+.instagram {
+    color: rgba(255, 104, 107, 0.8);
+}
+
+.instagram:hover {
+    color:#84DCC6;
+}
+
+i {
+    padding: 5px;
+}
+
+@media screen and (max-width: 960px) {
+    .nav_footer_logo {
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #signature_footer_link {
+        float: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 2;
+    }
+
+    .footer_nav {
+        display: block;
+        float: none;
+    }
+
+    .menu_footer_item {
+        display: block;
+        font-size: 12px;
+        letter-spacing: 3px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .menu_footer_item:not(:first-child) {
+        padding: 20px;
+    }
+
+    .social {
+        float: none;
+        text-align: center;
+    }
+
+    #ownership {
+        text-align: center;
+    }
+}
